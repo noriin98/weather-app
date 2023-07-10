@@ -22,12 +22,14 @@ let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thuesday", "Friday", "S
 return (
     <div>
     <div className="forecast-day">{day()}</div>
+    
         <WeatherIcon code={props.data.weather[0].icon} size={36} />
         <div className="WeatherForecast-temp">
         <span className="WeatherForecast-temp-max">{maxTemp()}</span>
         <span className="WeatherForecast-temp-min">{minTemp()}</span>
         </div>
         </div>
+    
 )
 
 }
