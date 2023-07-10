@@ -7,7 +7,7 @@ export default function App() {
     <div className='container'>
      <Weather defaultCity="Paris" />
      <footer>
-     This project was coded by Noreen Akhtar and is open-sorced on Github</footer>
+     This project was coded by Noreen Akhtar and is <a href="https://github.com/noriin98/weather-app">open-sorced on Github</a></footer>
      </div>
      </div>
   );
