@@ -22,7 +22,7 @@ export default function WeatherTemp(props){
     return (
         <div className="WeatherTemperature">
         <span className="temp">{Math.round(fahrenheit)}</span>
-            <span className="unit"><p href="#" onClick={convertToC}>°C</p> | °F </span> 
+            <span className="unit"><p href="#" onClick={convertToC}>°C</p>|°F </span> 
             </div>
     );
 }
